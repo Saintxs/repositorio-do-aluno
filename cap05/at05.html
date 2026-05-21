@@ -235,11 +235,11 @@
     </main>
 
     <script>
-        // 1. Função de Validação do E-mail Institucional (Disparada no onblur)
+        // 1. Função de Validação do E-mail Institucional
         function validarEmail(campo) {
             const erro = document.getElementById('erro-email');
-            if (!campo.value.endsWith('@ifal.edu.br')) {
-                erro.textContent = 'Informe seu e-mail institucional (@ifal.edu.br)';
+            if (!campo.value.endsWith('@aluno.ifal.edu.br')) {
+                erro.textContent = 'Informe seu e-mail institucional (@aluno.ifal.edu.br)';
                 campo.setAttribute('aria-invalid', 'true');
             } else {
                 erro.textContent = '';
