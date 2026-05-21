@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Recursos Multimídia Cap. 4 Ativ. 4</title>
+</head>
+<body>
 
+  <header>
+    <h1>Portal de Recursos Multimídia - Desenvolvimento de Sistemas (IFAL)</h1>
+  </header>
+
+  <main>
+    
+    <figure>
+      <video controls width="800" height="450" poster="poster-aula.jpg" preload="metadata">
+        <source src="videos/aula-html.mp4" type="video/mp4">
+        <source src="videos/aula-html.webm" type="video/webm">
+        <track kind="subtitles" src="legendas/aula-html.vtt" srclang="pt" label="Português" default>
+        <p>O seu navegador não suporta a reprodução de vídeos nativos. Você pode <a href="videos/aula-html.mp4">baixar o vídeo em MP4</a> para assistir localmente.</p>
+      </video>
+      <figcaption>Vídeo demonstrativo sobre Introdução às Tags Semânticas do HTML5. Fonte: Acervo Interno do Curso.</figcaption>
+    </figure>
+
+    <hr>
+
+    <figure>
+      <audio controls preload="metadata">
+        <source src="audios/podcast-ep01.mp3" type="audio/mpeg">
+        <source src="audios/podcast-ep01.ogg" type="audio/ogg">
+        <p>Seu navegador não suporta o elemento de áudio nativo. <a href="audios/podcast-ep01.mp3">Baixe o episódio aqui</a>.</p>
+      </audio>
+      <figcaption>Episódio 1: O Mercado de Trabalho para Desenvolvimento de Sistemas. Acesse também a <a href="transcricao.html">transcrição textual deste episódio</a>.</figcaption>
+    </figure>
+
+    <hr>
+
+    <figure>
+      <iframe 
+        width="800" 
+        height="450" 
+        src="https://www.youtube-nocookie.com/embed/8mei6uVttho" 
+        title="O que é um Algoritmo? Conceito básico de lógica de programação explicado de forma didática para iniciantes na área de tecnologia." 
+        loading="lazy" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+      <figcaption>Vídeo educativo "O que é algoritmo?", publicado pelo canal Curso em Vídeo na plataforma YouTube.</figcaption>
+    </figure>
+
+    <hr>
+
+    <figure>
+      <picture>
+        <source media="(min-width: 768px)" srcset="img/banner-wide.jpg">
+        <img src="img/banner-mobile.jpg" alt="Estudante codificando em um notebook com telas de códigos HTML ao fundo" width="400" height="300">
+      </picture>
+      <figcaption>Banner ilustrativo do ambiente virtual de aprendizagem, adaptando o enquadramento de acordo com o tamanho da tela do dispositivo.</figcaption>
+    </figure>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por: Seu Nome Completo | Matrícula: Seu Número | IFAL</p>
+    <p><a href="../index.html">Voltar à página principal</a></p>
+  </footer>
+
+</body>
+</html>
